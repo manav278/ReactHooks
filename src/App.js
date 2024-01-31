@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import React,{useState} from "react";
+import React, { useState } from "react";
+import Hooksa from './components/Hooksa';
 
 function App() {
   // var val="Code with Manav"
@@ -12,22 +13,25 @@ function App() {
   // }
   // -------------------------------
 
-    const [name,setName]=useState("Manav")
-    const nameChange=()=>{
-      // if(name=="Manav")
-      // {
-      //   setName("Manav Jayesh Patel")
-      // }
-      // else if(name=="Manav Jayesh Patel")
-      // {
-      //   setName("Manav")
-      // }
-      name=="Manav" ? setName("Manav Jayesh Patel") : setName("Manav")
-    }
-    return (
+  const [name, setName] = useState("Manav")
+  const nameChange = () => {
+    // if(name=="Manav")
+    // {
+    //   setName("Manav Jayesh Patel")
+    // }
+    // else if(name=="Manav Jayesh Patel")
+    // {
+    //   setName("Manav")
+    // }
+    name === "Manav" ? setName("Manav Jayesh Patel") : setName("Manav")
+  }
+  return (
     <div className="App">
       <h1>{name}</h1>
       <button onClick={nameChange}>Click me Plzz</button>
+      <hr></hr>
+      <Hooksa></Hooksa>
+      <hr></hr>
     </div>
   );
 }
