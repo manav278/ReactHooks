@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-
+import React, { useState } from 'react'
+import '../App.css'
 export default function UseStateArray() {
 
     var array = [
@@ -33,10 +33,10 @@ export default function UseStateArray() {
         <div>
             {
                 myArray.map((currElement) => {
-                    return <h1 style={{ color: 'white', backgroundColor: 'black', width: '150px', border: '5px solid orange' }} key={currElement.id}>{currElement.name}<hr></hr>{currElement.College}</h1>
+                    return <h1 className='h1-class' key={currElement.id}>{currElement.name}<hr></hr>{currElement.College}</h1>
                 })
             }
-            <button onClick={handleClick}>Click Here to Clear All ToDos</button>
+            <button onClick={handleClick} className='btn-class'>Click Here to Clear All ToDos</button>
 
         </div>
     )

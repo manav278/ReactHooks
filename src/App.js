@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState } from "react";
 import Hooksa from './components/Hooksa';
 import UseStateArray from './components/UseStateArray';
+import Usestateobject from './components/Usestateobject';
 
 function App() {
   // var val="Code with Manav"
@@ -34,16 +35,22 @@ function App() {
 
       {/* <h1>{name}</h1>
       <button onClick={nameChange}>Click here for 'App' Component</button>
-      <hr></hr>
-      //--------------------------------
-      <Hooksa></Hooksa>
-      <hr></hr> 
-      //--------------------------------
-      */}
+      <hr></hr> */}
+
+      {/* //-------------------------------- */}
+
+      {/* <Hooksa></Hooksa>
+      <hr></hr>  */}
 
       {/* --------------------------------- */}
 
-      <UseStateArray></UseStateArray>
+      {/* <UseStateArray></UseStateArray> */}
+
+      {/* --------------------------------- */}
+
+      <Usestateobject></Usestateobject>
+
+      {/* --------------------------------- */}
 
     </div>
   );
