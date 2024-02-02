@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Hooksa from './components/Hooksa';
 import UseStateArray from './components/UseStateArray';
 import Usestateobject from './components/Usestateobject';
+import ShotCircuitEval from './components/ShotCircuitEval';
 
 function App() {
   // var val="Code with Manav"
@@ -44,13 +45,15 @@ function App() {
 
       {/* --------------------------------- */}
 
-      <UseStateArray></UseStateArray>
+      {/* <UseStateArray></UseStateArray> */}
 
       {/* --------------------------------- */}
 
       {/* <Usestateobject></Usestateobject> */}
 
       {/* --------------------------------- */}
+
+      <ShotCircuitEval></ShotCircuitEval>
 
     </div>
   );
