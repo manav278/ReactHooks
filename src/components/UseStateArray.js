@@ -29,11 +29,21 @@ export default function UseStateArray() {
     const handleClick = () => {
         setMyArray([])
     }
+    const handleInnerBtn = (id) => {
+        const newArr = myArray.filter((currentElement) => {
+            return id != currentElement.id
+        })
+        setMyArray(newArr)
+    }
     return (
         <div>
             {
                 myArray.map((currElement) => {
-                    return <h1 className='h1-class' key={currElement.id}>{currElement.name}<hr></hr>{currElement.College}</h1>
+                    return <div className='div-class' key={currElement.id}>
+                        <p>{currElement.name}</p>
+                        <p>{currElement.College}</p>
+                        <button onClick={() => { handleInnerBtn(currElement.id) }}>Remove</button>
+                    </div>
                 })
             }
             <button onClick={handleClick} className='btn-class'>Click Here to Clear All ToDos</button>

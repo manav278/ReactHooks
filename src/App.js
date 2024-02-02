@@ -44,11 +44,11 @@ function App() {
 
       {/* --------------------------------- */}
 
-      {/* <UseStateArray></UseStateArray> */}
+      <UseStateArray></UseStateArray>
 
       {/* --------------------------------- */}
 
-      <Usestateobject></Usestateobject>
+      {/* <Usestateobject></Usestateobject> */}
 
       {/* --------------------------------- */}
 
