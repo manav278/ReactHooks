@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <h1>{name}</h1>
-      <button onClick={nameChange}>Click me Plzz</button>
+      <button onClick={nameChange}>Click here for 'App' Component</button>
       <hr></hr>
       <Hooksa></Hooksa>
       <hr></hr>

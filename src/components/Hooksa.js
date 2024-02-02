@@ -8,7 +8,7 @@ const Hooksa = () => {
     return (
         <div>
             <h1>{name}</h1>
-            <button onClick={changeSt} >Click Here for Inside Component</button>
+            <button onClick={changeSt} >Click Here for 'Hooksa' Component</button>
         </div>
     )
 }
