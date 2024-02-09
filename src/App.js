@@ -5,6 +5,7 @@ import Hooksa from './components/Hooksa';
 import UseStateArray from './components/UseStateArray';
 import Usestateobject from './components/Usestateobject';
 import ShotCircuitEval from './components/ShotCircuitEval';
+import Basicform from './components/forms/Basicform';
 
 function App() {
   // var val="Code with Manav"
@@ -53,7 +54,9 @@ function App() {
 
       {/* --------------------------------- */}
 
-      <ShotCircuitEval></ShotCircuitEval>
+      {/* <ShotCircuitEval></ShotCircuitEval> */}
+
+      <Basicform></Basicform>
 
     </div>
   );
