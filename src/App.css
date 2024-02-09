@@ -46,9 +46,9 @@
 }
 
 .div-class {
-  color: white;
-  background-color: black;
-  border: 5px solid orange;
+  color: rgb(19, 220, 35);
+  background-color: rgb(190, 197, 238);
+  border: 5px solid rgb(33, 29, 20);
   margin: 20px;
 
 }
